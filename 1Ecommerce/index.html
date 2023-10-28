@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="py-5">
+      <h1 class="text-center">
+        <span class="text-primary">Guitar</span> Store
+      </h1>
+    </header>
+
+    <div class="border-top py-4">
+      <div class="navbar navbar-expand-lg container navbar-light">
+        <a
+          class="navbar-brand site-name d-lg-none fs-2 fw-bold text-uppercase"
+          href="index.html"
+          >Guitar Store</a
+        >
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navigation">
+          <nav
+            class="navbar-nav container text-center flex-md-row justify-content-md-between"
+          >
+            <a class="text-dark text-decoration-none" href="index.html">Home</a>
+            <a class="text-dark text-decoration-none" href="about.html"
+              >About Us</a
+            >
+            <a class="text-dark text-decoration-none" href="store.html"
+              >Store</a
+            >
+            <a class="text-dark text-decoration-none" href="blog.html">Blog</a>
+            <a class="text-dark text-decoration-none" href="gallery.html"
+              >Gallery</a
+            >
+            <a class="text-dark text-decoration-none" href="contact.html"
+              >Contact</a
+            >
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero"></div>
+    <main class="container-xl py-5">
+      <h2 class="text-center my-5">Our Products</h2>
+      <div class="row g-0 pt-5">
+        <!-- g-0 removes the gutters -->
+        <div class="col-md-8 product">
+          <img class="img-fluid" src="img/product1.webp" alt="product 1" />
+        </div>
+        <div
+          class="col-md-4 bg-primary text-center p-5 text-white d-flex flex-column justify-content-center"
+        >
+          <h3>Product 1</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
+            nihil iste quis cumque ab impedit libero corrupti ea tenetur eveniet
+            quisquam quibusdam!
+          </p>
+          <p class="fs-1 fw-bold">$1,000</p>
+          <a class="btn btn-success fs-3 fw-bold text-uppercase py-3" href="#"
+            >add to cart</a
+          >
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6"></div>
+        <div class="col-md-6"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4"></div>
+      </div>
+    </main>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
