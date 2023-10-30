@@ -80,8 +80,16 @@ h3 {
 
 @media (min-width: 768px) {
   .product img {
-    height: 43rem;
+    height: 45rem;
     width: 100%;
     object-fit: cover;
   }
+}
+
+.category img {
+  transition: transform 300ms;
+}
+
+.category img:hover {
+  transform: scale(1.2);
 }
