@@ -2,6 +2,7 @@
 $red: #f34f51;
 $green: #0098ae;
 $dark: #212121;
+$gray: #b5b5b5;
 
 // Asignar colores personalizados a variables de Bootstrap
 
@@ -15,6 +16,12 @@ $headings-font-weight: 700;
 
 // Cards
 $card-border-color: transparent;
+
+// Nav link
+$nav-link-padding-x: 0;
+$nav-link-color: $gray;
+$nav-link-hover-color: $red;
+
 
 // Importar Bootstrap
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
