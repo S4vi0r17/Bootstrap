@@ -1,9 +1,17 @@
 # Bootstrap
 
-## Ecommerce
+## Guitar Store
 
-<p align="center">
-    <img src="1Ecommerce/img/mockup.png" alt="imagen" width="auto">
-</p>
+<div align="center">
+    <img src="./img/1.png" alt="Guitar Store" width="auto">
+</div>
+
+**You can visit it**  [here](https://clever-pegasus-0c3100.netlify.app/).
+
+## Meeti
+
+<div align="center">
+    <img src="./img/2.png" alt="Meeti" width="auto">
+</div>
 
 **You can visit it**  [here](https://clever-pegasus-0c3100.netlify.app/).
