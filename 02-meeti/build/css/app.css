@@ -217,7 +217,7 @@ hr {
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.2;
   color: var(--bs-heading-color);
 }
@@ -4294,7 +4294,7 @@ textarea.form-control-lg {
   --bs-card-title-color: ;
   --bs-card-subtitle-color: ;
   --bs-card-border-width: var(--bs-border-width);
-  --bs-card-border-color: var(--bs-border-color-translucent);
+  --bs-card-border-color: transparent;
   --bs-card-border-radius: var(--bs-border-radius);
   --bs-card-box-shadow: ;
   --bs-card-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
@@ -11866,8 +11866,20 @@ textarea.form-control-lg {
     padding-bottom: 10rem;
   }
 }
-.header .logo {
+
+.logo {
   width: 10rem;
+}
+
+.events .card:hover {
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.events .card img {
+  border-radius: 0.5rem;
+}
+.events .card .date {
+  color: #877457;
 }
 
 /*# sourceMappingURL=app.css.map */

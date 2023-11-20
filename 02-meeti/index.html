@@ -2,36 +2,162 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meeti</title>
-    <meta name="description" content="Meeti y aprendiendo bootsrap 5 y SASS.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./build/css/app.css">
+    <meta name="description" content="Meeti y aprendiendo bootsrap 5 y SASS." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./build/css/app.css" />
 </head>
 
 <body>
-
     <header class="container-xl header">
         <div class="row align-items-center">
             <div class="col-md-6 mb-5 mb-md-0">
-                <img class="logo" src="./assets/img/logo.svg" alt="logo meeti">
+                <img class="logo" src="./assets/img/logo.svg" alt="logo meeti" />
                 <h1 class="display-2">Join, life is in a Meeti.</h1>
-                <p class="fs-3">Join over 300 thousand organizers who are sharing their passion and building a
-                    community.</p>
+                <p class="fs-3">
+                    Join over 300 thousand organizers who are sharing their passion and
+                    building a community.
+                </p>
                 <a class="btn btn-danger" href="#">Start a group</a>
             </div>
             <div class="col-md-6">
-                <img class="img-fluid" src="./assets/img/header.jpg" alt="header image">
+                <img class="img-fluid" src="./assets/img/header.jpg" alt="header image" />
             </div>
         </div>
     </header>
 
     <section class="container-xl">
+        <h2 class="fs-1 text-center">How Meeti Works</h2>
+        <p class="text-center w-50 mx-auto">
+            Meet new people who share your interests through online and in-person
+            events. Creating an account is free.
+        </p>
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <img class="img-fluid" src="./assets/img/icono_1.svg" alt="icon 1" />
+                <h3 class="text-secondary text-center fs-4">Join a group</h3>
+                <p class="text-center">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                    commodi animi similique quia! Alias earum deserunt laboriosam, quam
+                    aliquam, saepe ad similique
+                </p>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid" src="./assets/img/icono_2.svg" alt="icon 2" />
+                <h3 class="text-secondary text-center fs-4">Manage Attendees</h3>
+                <p class="text-center">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                    commodi animi similique quia! Alias earum deserunt laboriosam, quam
+                    aliquam, saepe ad similique
+                </p>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid" src="./assets/img/icono_3.svg" alt="icon 3" />
+                <h3 class="text-secondary text-center fs-4">Grow your Community</h3>
+                <p class="text-center">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                    commodi animi similique quia! Alias earum deserunt laboriosam, quam
+                    aliquam, saepe ad similique
+                </p>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center my-5">
+            <a class="btn btn-secondary text-white" href="">Join Meeti</a>
+        </div>
+    </section>
 
+    <main class="container-xl events mt-5">
+        <div class="d-flex justify-content-between">
+            <h2>Upcoming Events</h2>
+            <a class="text-secondary text-decoration-none d-none d-sm-block" href="#">Explore more events</a>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <img class="card-img-top" src="./assets/img/evento_1.jpg" alt="event 1" />
+                    <div class="card-body">
+                        <p class="card-text date fw-bold">December 10th, 8:00 PM</p>
+                        <h3 class="card-title">Designing Apps with Swift</h3>
+                        <p class="card-text description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <img class="card-img-top" src="./assets/img/evento_2.jpg" alt="event 2" />
+                    <div class="card-body">
+                        <p class="card-text date fw-bold">December 11th, 8:00 PM</p>
+                        <h3 class="card-title">Twitter Marketing</h3>
+                        <p class="card-text description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <img class="card-img-top" src="./assets/img/evento_3.jpg" alt="event 3" />
+                    <div class="card-body">
+                        <p class="card-text date fw-bold">December 12th, 8:00 PM</p>
+                        <h3 class="card-title">Internet Sales</h3>
+                        <p class="card-text description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <img class="card-img-top" src="./assets/img/evento_4.jpg" alt="event 4" />
+                    <div class="card-body">
+                        <p class="card-text date fw-bold">December 13th, 8:00 PM</p>
+                        <h3 class="card-title">All About Bitcoin</h3>
+                        <p class="card-text description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="stores container-xl mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <img class="img-fluid" src="./assets/img/app_1.png" />
+            </div>
+            <div class="col-md-4">
+                <img class="logo mt-5 d-block mx-auto" src="./assets/img/logo.svg" alt="logo" />
+                <p class="text-center fw-bold mt-5 fs-4">
+                    Stay Connected. Download the application.
+                </p>
+                <div class="d-flex gap-4">
+                    <div class="col">
+                        <a href="#">
+                            <img class="img-fluid" src="./assets/img/tienda-apple.svg" alt="apple store" />
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="#">
+                            <img class="img-fluid" src="./assets/img/tienda-android.svg" alt="android store" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid" src="./assets/img/app_2.png" />
+            </div>
+        </div>
     </section>
 
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
