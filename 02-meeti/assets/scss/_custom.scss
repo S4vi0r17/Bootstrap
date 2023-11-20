@@ -1,0 +1,16 @@
+// Personalizar Bootstrap (Siempre va antes de importar Bootstrap)
+$red: #f34f51;
+$green: #0098ae;
+$dark: #212121;
+
+// Asignar colores personalizados a variables de Bootstrap
+
+$primary: $red;
+$secondary: $green;
+$dark: $dark;
+
+// Tipografía
+$display-font-weight: 900;
+
+// Importar Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
